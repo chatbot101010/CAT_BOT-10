@@ -11,9 +11,9 @@ try {
 } catch (err) {
     logger(`Failed to load package.json: ${err.message}`, "[ Error ]");
 }
-const BOT_NAME = pkg.name || "Cat_Bot";
+const BOT_NAME = pkg.name || "CatBot";
 const BOT_VERSION = pkg.version || "5.0.0";
-const BOT_DESC = pkg.description || "Cat_Bot";
+const BOT_DESC = pkg.description || "CatBot";
 
 // ==================== Express Server ====================
 const app = express();
